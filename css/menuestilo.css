@@ -1,0 +1,41 @@
+body{
+    background:#ffffff; width: 90%; max-width: 1500px; margin: 0;
+}
+nav{
+    background:#00aef0; margin-top: 80px; position: relative; list-style: none; cursor: pointer;
+}
+nav ul{
+    list-style: none; padding: 0; margin: 0; overflow: hidden;
+}
+nav> ul> li{
+    float: left; 
+}
+nav ul li a{
+    text-decoration: none; color: #ffffff; display: block; padding: 10px 20px;
+}
+nav ul li a:hover{
+    background: #ffffff; color: #00aef0;
+}
+nav> ul > li:hover div{
+    display: table; 
+}
+/*Sub menus*/
+nav ul li div{
+    width: 1500px; position: absolute; left:0; background: #ffffff; box-sizing: border-box; display: none; 
+}
+nav ul li div table{
+    width: 20%; display: table-cell; border-right: 10px solid box-sizing: border-box;
+}
+nav ul li div table:last-child{
+    border: none;
+}
+/*Tablas interiores*/
+nav ul li div table tr{
+    background:#ffffff;
+    empty-cells: hide;
+    table-layout: auto;
+    border-right:10px solid rgba(225, 222, 225, .5);
+}
+nav ul li div table tr td{
+    color:#00aef0 ;
+}

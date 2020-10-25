@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: #fff;
+}
+#menu{
+    margin: initial;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    background-color: #264e72;
+}
+ul, ol{
+    list-style: none;
+}
+.items li a{
+    background-color:#264e72;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+.items li a:hover{
+
+}
+.items >li{
+    float: left;
+}
+.items li ul{
+    display: none;
+    position: absolute;
+    min-width: auto;
+}
+.items li:hover > ul{
+display: block;
+}
+.items il ul il{
+    position: relative;
+}
+
+
+
+.menu2{
+    position: relative;
+    top: 28px;
+}
+
+
+
+.menu3{
+    position: relative;
+    top: 30px;
+    right: -50px;
+}
+.menu3 ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.item3{
+    float: left;
+}
+.item3 a{
+    background: #00aef0;
+    color: #ffffff;
+    padding: 22px 22px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.item3 .desplegable{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+.desplegable{
+    background: #fff;
+    color: #00aef0;
+    padding: 22px 22px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;   
+}
+.desplegable td{
+    height: 90px;
+    width: 250px;
+    border-right: 1px;
+    position: relative;
+    
+}
+
+.desplegable li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.item3:hover .desplegable{
+    display: block;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom:1000px;
+}

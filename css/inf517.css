@@ -1,0 +1,36 @@
+body{
+    background: #6e4141;
+}
+header{
+    width: 90%; max-width: 1000px; margin: auto;
+}
+header nav{
+    background: #528fd5; margin-top: 20px; position: relative; 
+}
+header nav ul{
+    list-style: none; padding: 0; margin: 0; overflow: hidden;
+}
+header nav > ul >li{
+    float: left; 
+}
+header nav ul li a{
+    text-decoration: none; color: blanchedalmond; display: block; padding: 10px 20px;
+}
+header nav ul li a:hover{
+    background: #3669a3;
+}
+header nav> ul> li:hover div{
+    display: table;
+}
+header nav ul li div{
+    width: 1000px; position: absolute; left: 0; background: #ccc; box-sizing: border-box; display: none;
+}
+h1{
+    margin-right: auto;
+    margin-left: auto;
+    color: cornflowerblue;
+}
+footer{
+    position: static;
+    margin-left: 300px;
+}
